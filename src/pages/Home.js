@@ -6,12 +6,15 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import ScrollToTop from "../components/SocialIcon/ScrollToTop";
+import Experience from '../components/Experience/Experience'; 
+
 function Home() {
   return (
     <>
       <Hero />
-      <Projects />
       <About />
+      <Experience />
+      <Projects />
       <Contact />
       <FixSocialIcon />
       <Footer />

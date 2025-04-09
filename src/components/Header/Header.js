@@ -15,6 +15,9 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="projects">
             Projects
           </NavLink>
+          <NavLink className="menu-item" to="experience">
+            Experience
+          </NavLink>
           <NavLink className="menu-item" to="about">
             About
           </NavLink>
@@ -25,8 +28,8 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
-            target="_blank"
+            href="/Pavan_Khamitkar_AI&DS.pdf" // Updated path to match your resume file name
+            download="Pavan_Khamitkar_AI&DS.pdf" // Updated download filename
             rel="noopener noreferrer"
           >
             Resume

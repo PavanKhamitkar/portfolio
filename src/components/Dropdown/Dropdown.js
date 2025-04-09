@@ -65,6 +65,8 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="projects"
+          smooth={true}
+          duration={500}
         >
           Projects
         </NavLink>
@@ -72,13 +74,26 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="about"
+          smooth={true}
+          duration={500}
         >
           About
         </NavLink>
         <NavLink
           onClick={toggle}
           className="menu-item"
+          to="experience"
+          smooth={true}
+          duration={500}
+        >
+          Experience
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="menu-item"
           to="contact"
+          smooth={true}
+          duration={500}
         >
           Contact
         </NavLink>
@@ -86,7 +101,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
+          href="http://www.linkedin.com/in/pavan-khamitkar-098799239"
           target="_blank"
           rel="noopener noreferrer"
         >
